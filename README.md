@@ -153,7 +153,7 @@ https://aws.amazon.com/blogs/compute/building-high-throughput-genomics-batch-wor
 
 ### Notes: 
 the docker container instances come with valid amazon credentials, no need to manually send creds through env vars
-
+resources in AWS are only accessible from inside MSK's network.
 
 
 # Plan:
